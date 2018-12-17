@@ -1,0 +1,9 @@
+{
+  "required": true,
+  "package": "basic",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "MixinTraitsPanelGui",
+    "MixinTraitDisplayOptionUi"
+  ]
+}
