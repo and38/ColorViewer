@@ -15,7 +15,7 @@ import org.spongepowered.asm.mixin.Mixins;
 )
 public class ColorViewer extends EquilinoxMod {
 
-        public void preInit() {
+    public void preInit() {
         Logger.logMsg("!!!!!! Color Viewer Mod pre-initialized !!!!!!");
         Mixins.addConfiguration("mixins.colorviewer.json");
     }

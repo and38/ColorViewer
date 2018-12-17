@@ -29,7 +29,7 @@ public abstract class MixinTraitDisplayOptionUi {
     @Shadow private int traitIndex;
 
     @Shadow
-    public abstract String getText(Entity entity);
+    private String getText(Entity entity) {return null;}
 
     @Inject(method = "getText", at = @At("HEAD"), cancellable = true)
     private void onGetText(Entity entity, CallbackInfoReturnable<String> info) {
