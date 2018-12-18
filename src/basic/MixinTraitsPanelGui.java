@@ -1,7 +1,6 @@
 package basic;
 
 import breedingTraits.Trait;
-import equilinoxmodkit.util.Logger;
 import materials.ColourTrait;
 import org.spongepowered.asm.lib.Opcodes;
 import org.spongepowered.asm.mixin.Mixin;

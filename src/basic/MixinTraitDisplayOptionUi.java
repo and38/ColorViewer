@@ -44,7 +44,7 @@ public abstract class MixinTraitDisplayOptionUi {
         info.setReturnValue(textInfo);
         info.cancel();
     }
-    
+
     @Inject(method = "loopNearbyEntities", at = @At(value = "FIELD", target = "activeTexts", opcode = Opcodes.GETFIELD), locals = LocalCapture.CAPTURE_FAILSOFT)
     private void onLoopNearbyEntities(EntityBundle entityBundle, CallbackInfo info,
                                       float camDis, Entity entity, Iterator<?> var4,

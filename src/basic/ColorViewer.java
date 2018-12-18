@@ -11,7 +11,7 @@ import org.spongepowered.asm.mixin.Mixins;
         name = "Color Viewer",
         author = "libraryaddictfan",
         description = "A mod which allows the user to view the color traits of all entities of the same type in a certain area.",
-        version = "0.0.1"
+        version = "0.0.2"
 )
 public class ColorViewer extends EquilinoxMod {
 
